@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="eng" ng-app="NoteWrangler">
+
+<head>
+    <title>Note Wrangler</title>
+    <link rel='stylesheet' href='assets/styles/bootstrap.css'></link>
+    <link rel='stylesheet' href='assets/styles/bootstrap-theme.css'></link>
+</head>
+
+<body>
+    <nav class="nav navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="navbar-brand">
+                    <a href="#/">Note Wrangler</a>
+                </div>
+            </div>
+
+            <nw-page-nav></nw-page-nav>
+        </div>
+    </nav>
+
+    <div ng-view class='container-fluid'></div>
+</body>
+
+<!-- Vendors -->
+
+<script src='assets/javascript/vendor/jquery-3.2.1.min.js'></script>
+<script src='assets/javascript/vendor/angular.js'></script>
+<script src='assets/javascript/vendor/angular-route.js'></script>
+<script src="assets/javascript/vendor/angular-resource.js"></script>
+<script src='assets/javascript/vendor/md5.js'></script>
+<script src="assets/javascript/vendor/gravatar.js"></script>
+<script src='assets/javascript/vendor/bootstrap.js'></script>
+<script src='assets/javascript/vendor/ngGravatar.js'></script>
+
+<!-- App --> 
+<script src='assets/javascript/app.js'></script>
+<script src='assets/javascript/routes.js'></script>
+
+<!-- Directives -->
+<script src='assets/javascript/directives/nwPageNav.js'></script>
+<script src='assets/javascript/directives/nwCategorySelector.js'></script>
+<script src='assets/javascript/directives/title.js'></script>
+
+
+<!-- Controllers -->
+<script src='assets/javascript/controllers/noteindexController.js'></script>
+<script src='assets/javascript/controllers/noteshowController.js'></script>
+<script src='assets/javascript/controllers/noteeditController.js'></script>
+<script src='assets/javascript/controllers/notecreateController.js'></script>
+<script src='assets/javascript/controllers/usersshowController.js'></script>
+<script src='assets/javascript/controllers/usersindexController.js'></script>
+
+<!-- filters -->
+<script src='assets/javascript/filters/categoryFilter.js'></script>
+
+<!-- Services -->
+<script src='assets/javascript/services/note.js'></script>
+<script src='assets/javascript/services/user.js'></script>
+<script src='assets/javascript/services/category.js'></script>
+
+
+</html>

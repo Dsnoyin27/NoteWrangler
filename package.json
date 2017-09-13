@@ -1,0 +1,26 @@
+{
+  "name": "angularstb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.0",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^1.3.1",
+    "csurf": "^1.9.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^1.7.9",
+    "sqlite3": "^3.1.10",
+    "underscore": "^1.8.3"
+  }
+}
