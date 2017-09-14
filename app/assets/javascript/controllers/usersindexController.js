@@ -1,10 +1,7 @@
 angular
-.module('NoteWrangler')
-.controller('UsersIndexController', function(User, $scope) {
-  $scope.user = User.query();
-  $scope.search = {};
+  .module('NoteWrangler')
+  .controller('UsersIndexController', function($scope, User) {
+    $scope.users = User.query();
 
-  
-
-  
-});
+    
+  });

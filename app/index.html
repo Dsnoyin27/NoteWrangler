@@ -5,6 +5,9 @@
     <title>Note Wrangler</title>
     <link rel='stylesheet' href='assets/styles/bootstrap.css'></link>
     <link rel='stylesheet' href='assets/styles/bootstrap-theme.css'></link>
+    <link rel="stylesheet" href="css/application.css" />
+   
+
 </head>
 
 <body>
@@ -12,7 +15,7 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <div class="navbar-brand">
-                    <a href="#/">Note Wrangler</a>
+                    <a href="/sign_up">Note Wrangler</a>
                 </div>
             </div>
 
@@ -21,7 +24,7 @@
     </nav>
 
     <div ng-view class='container-fluid'></div>
-</body>
+
 
 <!-- Vendors -->
 
@@ -42,6 +45,9 @@
 <script src='assets/javascript/directives/nwPageNav.js'></script>
 <script src='assets/javascript/directives/nwCategorySelector.js'></script>
 <script src='assets/javascript/directives/title.js'></script>
+<script src='assets/javascript/directives/new-session.js'></script>
+<script src='assets/javascript/directives/nw-card.js'></script>
+<script src='assets/javascript/directives/nw-category-item.js'></script>
 
 
 <!-- Controllers -->
@@ -51,6 +57,7 @@
 <script src='assets/javascript/controllers/notecreateController.js'></script>
 <script src='assets/javascript/controllers/usersshowController.js'></script>
 <script src='assets/javascript/controllers/usersindexController.js'></script>
+<script src='assets/javascript/controllers/profile-edit-controller.js'></script>
 
 <!-- filters -->
 <script src='assets/javascript/filters/categoryFilter.js'></script>
@@ -59,6 +66,7 @@
 <script src='assets/javascript/services/note.js'></script>
 <script src='assets/javascript/services/user.js'></script>
 <script src='assets/javascript/services/category.js'></script>
+<script src='assets/javascript/services/session.js'></script>
 
-
+</body>
 </html>
